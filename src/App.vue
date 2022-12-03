@@ -1,16 +1,18 @@
 <template>
-  <InscritsList msg="Welcome to Your Vue.js App"/>
+  <h1>Liste des Inscrits</h1>
+  <InscritsList />
 </template>
 
 <script>
-import InscritsList from './components/InscritsList.vue';
 
+import InscritsList from './components/InscritsList.vue';
 export default {
   name: 'App',
   components: {
     InscritsList
   }
 }
+
 </script>
 
 <style>
@@ -21,5 +23,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+h1 {
+ text-align : center;
+ margin-bottom : 4rem;
 }
 </style>
